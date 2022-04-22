@@ -1,3 +1,4 @@
+[![Pylint](https://github.com/THE-ORONCO/weirdBirbDiscordBot/actions/workflows/pylint.yml/badge.svg?branch=master)](https://github.com/THE-ORONCO/weirdBirbDiscordBot/actions/workflows/pylint.yml)
 # Weird-Birb-Bot
 Just a weird birb being a bot on any discord server you want.
 
