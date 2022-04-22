@@ -1,0 +1,14 @@
+[BASIC|]
+bad-names=  uff,
+            uffi,
+            f,
+            uffy,
+            möp
+
+max-line-length=123
+
+disable=too-many-ancestors,
+        missing-module-docstring
+
+
+no-docstring-rgx=setup|\_\_init\_\_

@@ -1,6 +1,6 @@
 def create_config_env_file():
-    # TODO do some string sanitation
-    # TODO maybe split up secret and public information for integration with other services later on
+    """creates an env file by taking user input"""
+
     lines = []
     token = input("your bot token: ")
     lines.append(f"TOKEN={token}")
@@ -11,7 +11,7 @@ def create_config_env_file():
 
     file_content = "\n".join(lines)
 
-    with open(".env", "w") as file:
+    with open(".env", "w", encoding="utf-8") as file:
         file.write(file_content)
 
     print("the bot should be ready now\n"
@@ -19,5 +19,4 @@ def create_config_env_file():
 
 
 if __name__ == '__main__':
-    # TODO allow for the creation of an empty .env file with only the required variables / default values
     create_config_env_file()
